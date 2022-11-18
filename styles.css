@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    background-image: url(https://th.bing.com/th/id/R.40d93e5d629c34354bd6bbc5c5a61d98?rik=1%2b47yHSi3OQ6Nw&riu=http%3a%2f%2fwww.blended-html.com%2fbackground-images%2fbi-background-black.png&ehk=oo%2fObYmjlQlU%2fZeUkDdkrR8ivwkNOvA9qBw1cqF3%2bOM%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+  }
+  .first-section{
+    padding:20px;
+    margin:0 0 40px 0;
+  }
+  #title{
+    padding:20px;
+    font-size:2em;
+  }
+  #description{
+    opacity: 75%;  
+  }
+  #survey-form{
+    padding: 30px; 
+    margin: 0 auto 0 auto;  
+    background-color: #495f7590;
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;  
+    resize:vertical;  
+  }
+  #part-one{
+    margin-bottom:30px;
+    
+  }
+  #name-label{
+    display:block;
+    padding:6px;
+    text-align:left;
+  }
+  #name{
+    display:block;
+    padding:10px;
+    border-radius:5px;
+    width:100%;
+  }
+  #email-label{
+    display:block;
+    padding:6px;
+    text-align:left;
+  }
+  #email{
+    display:block;
+    padding:10px;
+    border-radius:5px;
+    width:100%;
+  }
+  #number-label{
+    display:block;
+    padding:6px;
+    text-align:left;
+  }
+  #number{
+    display:block;
+    padding:10px;
+    border-radius:5px;
+    width:100%;
+  }
+  #dropdown-label{
+    display:block;
+    padding:6px;
+    text-align:left;
+  }
+  #dropdown{
+    display:block;
+    padding:10px;
+    border-radius:5px;
+    width:100%;
+  }  
+  #part-two{
+    margin-bottom:30px;
+  }
+  #recommend{
+    margin-bottom:10px;
+    display:block;
+    text-align:left;
+  }
+  #radio-label{
+    display:block;
+    text-align:left;
+    padding:5px;
+  }
+  
+  #part-three{
+    margin-bottom:30px;
+  }
+  #checkbox{
+    display:block;
+    text-align:left;
+    padding:5px;
+  }  
+  #part-four{
+    margin-bottom:30px;
+    text-align:left;
+  }
+  
+  #submit{
+    padding:10px;
+    width:100%;  
+    border-radius:10px;
+    cursor: pointer;
+    background-color:#37af65;
+    border-color:#37af65;
+  }
+  #comment{
+    width:100%;
+    max-height:100px;
+    padding:0.6em;
+  }
+  #submit:Hover {
+    color:#ffffff; 
+    background-color:#008080;
+    border-color:#008080; 
+  
+  }
+  
