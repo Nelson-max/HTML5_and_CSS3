@@ -1,0 +1,55 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    height: auto;
+    width:100%;
+    scroll-behavior: smooth;
+  }
+  #title{
+    text-align: center;
+    padding-top: 20px;
+  }
+  #img-div{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;  
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 50px 50px 0;
+  }
+  #img-caption{
+    text-align: center;
+    padding: 5px 60px 0;
+  }
+  
+  #tribute-info{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 60px;
+    font-size: 20px;  
+      
+  }
+  #tribute-info h3{
+    text-align: center;
+  }
+  #tribute-info li{
+    padding: 5px 0;
+  }
+  
+  span{
+    font-weight: bold;
+  }
+  #last-text{
+    font-weight: bold;
+  }
+  
